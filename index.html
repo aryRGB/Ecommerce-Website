@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/project/CSS/styles2.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="overlay" id="overlay" ></div>     <!--for darkening bg when navbar is active--> 
+            <a href="#" class="logo">
+                <img src="/project/images/comapany logo.png" width ="250"  alt="company logo">
+            </a>
+
+            <span class="nav-button">
+                <button class="nav-open-button" id="nav-open-button" aria-label="Open Menu">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+            </span>
+
+            <nav class="navbar" id="navbar">    <!--change to hamburger?, sliding window (curtain menu) -->
+                <button class="nav-close-button" id="nav-close-button" aria-label="Close Menu"> <!--change to hamburger close button?-->
+                    <ion-icon name="close-outline" size="35px"></ion-icon>
+                </button>
+
+                <a href="#" class="logo">
+                    <img src="/project/images/comapany logo.png" width ="200" alt="company logo">
+                </a>
+
+                <ul class="navbar-list" >
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-item-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-item-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-item-link">
+                            Products
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a
+                        href="#" class="navbar-item-link">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="navbar-item navbar-last-item">
+                        <a href="#" class="navbar-item-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="nav-action-list">
+                    <li>
+                        <a href="#">
+                            <button class="nav-action-button">
+                                <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                                <span class="nav-action-text"> <!--why use span here?-->
+                                    Search
+                                </span>
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <button class="nav-action-button">
+                                <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                                <span class="nav-action-text"> <!--why use span here?-->
+                                    Login/Register
+                                </span>
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <button class="nav-action-button" >
+                                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                <span class="nav-action-text"> <!--why use span here?-->
+                                    Favourites
+                                </span>
+                                <data value="5" class="nav-action-indicator">5</data>    
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <button class="nav-action-button">
+                                <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+                                <span class="nav-action-text"> <!--why use span here?-->
+                                    Cart: <span class="nav-action-text payment-amount"><b>Rs. 4550</b></span>
+                                </span>
+                                <span class="nav-action-indicator">2</span>
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            
+        </div>
+    </header> <!--mdlksgml-->
+    
+
+    <main>
+        <article>
+             
+            <section class="hero" style="background-image: url('/project/images/GettyImages-544810576\ \(1\).jpg');">
+            <div class="container" id="hero-center-text">
+                <h1 class="hero-title">Step Up Your Game.</h1>
+                <h4 class="hero-text">Experience unmatched comfort and style with every stride.</h4>
+                 <button class="big-button">
+                    SHOP NOW
+                 </button>
+            </div>
+            </section>
+
+            <section class="collection">
+                <div class="container">
+                    <ul class="collection-list has-scrollbar">
+                        <!-- <li>
+                            <div class="card" >
+                                <img src="/project/images/dunk-low-retro-shoe-66RGqF.jpg" alt="shoe1" class="shoe-image">
+                                <h3 class="card-title">Nike Dunk Low Retro</h3>
+                                <a href="#" class="explore-button">
+                                    <button class="small-button">
+                                        Explore
+                                        <ion-icon name="arrow-forward-outline" class="black-arrow" aria-hidden="true"></ion-icon>
+                                    </button>
+                                </a>
+                            </div>
+                        </li> -->
+                        <li>
+                            <div class="card" >
+                                <img src="/project/images/downshifter-13-road-running-shoes-4Gw85J.png" alt="shoe1" class="shoe-image">
+                                <h3 class="card-title">Nike Downshifter 13</h3>
+                                <a href="#" class="explore-button">
+                                    <button class="small-button">
+                                        Explore
+                                        <ion-icon name="arrow-forward-outline" class="black-arrow" aria-hidden="true"></ion-icon>
+                                    </button>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card" >
+                                <img src="/project/images/air-max-sc-shoes-2fm8C6.png" alt="shoe1" class="shoe-image">
+                                <h3 class="card-title">Nike Air Max SC</h3>
+                                <a href="#" class="explore-button">
+                                    <button class="small-button">
+                                        Explore
+                                        <ion-icon name="arrow-forward-outline" class="black-arrow" aria-hidden="true"></ion-icon>
+                                    </button>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card" >
+                                <img src="/project/images/air-jordan-1-low-shoes-6Q1tFM.png" alt="shoe1" class="shoe-image">
+                                <h3 class="card-title">Air Jordan 1 Low</h3>
+                                <a href="#" class="explore-button">
+                                    <button class="small-button">
+                                        Explore
+                                        <ion-icon name="arrow-forward-outline" class="black-arrow" aria-hidden="true"></ion-icon>
+                                    </button>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card" >
+                                <img src="/project/images/jordan-nu-retro-1-low-shoes-8294mJ.png" alt="shoe1" class="shoe-image">
+                                <h3 class="card-title">Jordan Nu Retro 1 Low</h3>
+                                <a href="#" class="explore-button">
+                                    <button class="small-button">
+                                        Explore
+                                        <ion-icon name="arrow-forward-outline" class="black-arrow" aria-hidden="true"></ion-icon>
+                                    </button>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card" >
+                                <img src="/project/images/legend-essential-3-next-nature-workout-shoes-2N3cx1.png" alt="shoe1" class="shoe-image">
+                                <h3 class="card-title">Nike Legends Essentials 3 Nature</h3>
+                                <a href="#" class="explore-button">
+                                    <button class="small-button">
+                                        Explore
+                                        <ion-icon name="arrow-forward-outline"  class="black-arrow" aria-hidden="true"></ion-icon>
+                                    </button>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="cta">
+                <div class="container">
+                    <ul class="cta-list">
+                        <li>
+                            <div class="cta-card" style="background-image: url('/project/images/cta-1.jpg');">
+                                <p class="cta-text">
+                                    Upto 40% Off. What's stopping you now?
+                                </p>
+                                <h3 class="cta-title">
+                                    Adidas Summer Sale
+                                </h3>
+                                <a href="#" class="cta-button">
+                                    <span>Shop Now</span> 
+                                    <ion-icon name="arrow-forward-outline"></ion-icon> 
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cta-card" style="background-image: url('/project/images/cta-2.jpg');">
+                                <p class="cta-text">
+                                    NIKE's summer collection  seeks to reconnect person and planet through nature-inspired colors.
+                                </p>
+                                <h3 class="cta-title">
+                                    New Summer Collection
+                                </h3>
+                                <a href="#" class="cta-button">
+                                    <span>Shop Now</span> 
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon> 
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="services">
+                <div class="container">
+                    <ul class="services-list">
+                        <li>
+                            <div class="service">
+                                <div class="icon">
+                                    <img src="/project/images/service-1.png" alt="free shipping icon">
+                                </div>
+                                <div>
+                                    <p class="service-title">
+                                        Fast Delivery
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service">
+                                <div class="icon">
+                                    <img src="/project/images/service-2.png" alt="free shipping icon">
+                                </div>
+                                <div class="service-title">
+                                    <p>
+                                        Secure Payment
+                                    </p>
+                                </div>                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service">
+                                <div class="icon">
+                                    <img src="/project/images/service-3.png" alt="free shipping icon">
+                                </div>
+                                <div class="service-title">
+                                    <p>
+                                        Free Returns
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service">
+                                <div class="icon">
+                                    <img src="/project/images/service-4.png" alt="free shipping icon">
+                                </div>
+                                <div class="service-title">
+                                    <p>
+                                        24/7 Customer Support
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+
+        </article>
+
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="social-media-banner">
+                    <a href="#" class="logo">
+                        <img src="/project/images/comapany logo.png" width="40%" alt="company logo">
+                    </a>
+                    <ul class="socials">
+                        <li class="socials-box">
+                            <a href="#" class="socials-link">
+                                <img src="/project/images/fb.png" width="30px" height="30px" alt="">
+                            </a>
+                        </li>
+                        <li class="socials-box">
+                            <a href="#" class="socials-link">
+                                <img src="/project/images/insta.png" width="30px" height="30px" alt="">
+                            </a>
+                        </li>
+                        <li class="socials-box">
+                            <a href="#" class="socials-link">
+                                <img src="/project/images/1688663318threads-logo-white.png" width="30px" height="30px" alt="">
+                            </a>
+                        </li>
+                        <li class="socials-box">
+                            <a href="#" class="socials-link">
+                                <img src="/project/images/twitter-new-2023-x-logo-white-background-vector_1017-45422.avif" width="30px" height="30px" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-main">
+
+            <ul class="footer-list">
+                <li>
+                    <span class="footer-title">Contact-us</span>
+                </li>
+                <li>
+                    <em class="footer-link">
+                        <ion-icon name="location"></ion-icon>
+                        <span class="footer-text">1234 A/BC XYZ Rd, New Delhi, 110001, India</span>
+                    </em>
+                </li>
+                <li>
+                    <a href="tel: +9876543210" class="footer-link"></a>
+                    <ion-icon name="call"></ion-icon>
+                    <span class="footer-text">+9876543210</span>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">
+                        <ion-icon name="mail"></ion-icon>
+                        <span class="footer-text">abc@xyz.com</span>                                
+                    </a>
+                </li>
+                
+            </ul>
+
+            <ul class="footer-list">
+                  <li>
+                    <a href="#" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-text">My Account</span>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-text">View Cart</span>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-text">Wishlist</span>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-text">Compare</span>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-text">New Products</span>
+                    </a>
+                  </li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">
+                    &copy; 2024 <a href="" class="copyright-link">MyName</a>. All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#top" class="back-to-top" id="back-to-top">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+
+    <!-- javascript -->
+    <script src="/project/script/script.js"></script>
+
+    <!-- 'ion-icon' icon pack -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
